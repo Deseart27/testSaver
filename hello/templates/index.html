@@ -1,0 +1,23 @@
+<head>
+  <meta charset="UTF-8">
+  <title>User Information Form</title>
+</head>
+
+<body>
+  <form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="Submit" name="submit" value="Submit" />
+  </form>
+
+  {% if submitbutton == "Submit" %}
+  <h1> Le lien est {{ study_url }}</h1>
+  {{test_value}}
+
+  {% endif %}
+
+</body>
+<script>'undefined' === typeof _trfq || (window._trfq = []); 'undefined' === typeof _trfd && (window._trfd = []), _trfd.push({ 'tccl.baseHost': 'secureserver.net' }), _trfd.push({ 'ap': 'cpbh-mt' }, { 'server': 'p3plmcpnl487010' }, { 'id': '8437534' }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script>
+<script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script>
+
+</html>
